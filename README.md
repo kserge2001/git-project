@@ -260,7 +260,7 @@ If you are writing a module with an [input variable](/terraform/language/values/
 will be used as a set of strings for `for_each`, you can set its type to
 `set(string)` to avoid the need for an explicit type conversion:
 
-```python
+```hcl
 variable "subnet_ids" {
   type = set(string)
 }
